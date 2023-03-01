@@ -1,461 +1,574 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required Meta Tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <!-- Document Title, Description, and Author -->
   <title>ASH COMPANY</title>
-  <meta name="description" content="Concept is a Bootstrap 5 Portfolio Template.">
-  <meta name="author" content="BootstrapBrain">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-  <!-- Favicon and Touch Icons -->
-  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/favicon-512x512.png">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- CSS Files -->
-  <link rel="stylesheet" href="./assets/css/concept-bsb.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Template Name: Selecao - v4.10.0
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-  <!-- Header -->
-  <header id="header">
 
-    <!-- Navbar 1 - Bootstrap Brain Component -->
-    <nav class="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="./assets/img/header/concept-logo.png" class="bsb-tpl-logo" alt="LOGO" style="width: 150px; height: auto;">
-        </a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-          </svg>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">홈</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#service-section">서비스</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#process-section">진행 방식</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#price-section">가격</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-section">연락처</a>
-              </li>
-            </ul>
-          </div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <!-- <h1><a href="index.html">Selecao</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">홈</a></li>
+          <li><a class="nav-link scrollto" href="#about">소개</a></li>
+          <li><a class="nav-link scrollto" href="#services">서비스</a></li>
+          <li><a class="nav-link scrollto" href="#process">진행 방식</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">포트폴리오</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">견적</a></li>
+          <li><a class="nav-link scrollto" href="#status">진행사항</a></li>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">연락처</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>ASH COMPANY</span></h2>
+          <p class="animate__animated fanimate__adeInUp">반응형 웹사이트 제작 서비스</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">더 알아보기</a>
         </div>
       </div>
-    </nav>
 
-    <!-- Hero 1 - Bootstrap Brain Component -->
-    <style>
-      .animated-text {
-        animation-name: zoomIn;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-      }
-    
-      @keyframes zoomIn {
-        0% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.1);
-        }
-        100% {
-          transform: scale(1);
-        }
-      }
-    </style>
-    
-    <section class="px-5 py-8 py-xxl-20 background-position-center background-size-cover bsb-overlay" style="background-image: url('./assets/img/header/hero-home.jpg');">
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
-            <h1 class="display-3 fw-bold mb-3 animated-text">웹사이트 필요하세요?</h1>
-            <p class="lead mb-5 animated-text">가성비 좋아하는 분들을 위해 싸고 빠르게 예쁜 웹사이트 만들어드릴게요.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-outline-light btn-lg px-4"><a href="#contact-section" style="color: inherit; text-decoration: none; cursor: pointer;">연락하기!</a></button>
-            </div>
-          </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">예쁜 디자인</h2>
+          <p class="animate__animated animate__fadeInUp">저희는 고객의 비전과 요구사항을 반영하여 개인 또는 비즈니스 웹사이트를 만들어드립니다. 최신 웹 기술과 디자인 트렌드를 활용하여 고품질의 웹사이트를 제작합니다. 저희 서비스를 통해 아름다운 디자인과 기능성이 결합된 웹사이트를 만나보세요!</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">더 알아보기</a>
         </div>
       </div>
-    </section>
-    
-  </header>
 
-  <!-- Main -->
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">저렴한 가격, 빠른 결과물</h2>
+          <p class="animate__animated animate__fadeInUp">저희 서비스는 저렴한 가격으로 빠른 제작 속도를 보장하는 웹사이트 제작 서비스입니다. 최신 웹 기술과 템플릿을 활용하여 고품질의 웹사이트를 빠르게 제작할 수 있습니다. 또한, 고객의 요구에 맞추어 커스터마이징된 디자인과 기능을 제공합니다.</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">더 알아보기</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
   <main id="main">
 
-    <!-- Project 1 - Bootstrap Brain Component -->
-    <section id="service-section" class="py-5 py-xl-8">
-
-      <div class="container mb-5 mb-md-6">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-            <h2 class="mb-4 display-5">이런걸 만들어드려요</h2>
-            <p class="text-secondary mb-4 mb-md-5">템플릿을 적극 활용하여 깔끔하고 심플한 웹사이트를 용도에 알맞게 만들어드립니다.</p>
-            <hr class="w-50 mx-auto mb-0 text-secondary">
-          </div>
-        </div>
-      </div>
-
-      <div class="container overflow-hidden">
-        <div class="row gy-3 gy-md-2 bsb-project-1-grid">
-          <div class="col-12 col-md-6 col-lg-3 bsb-project-1-item">
-            <figure class="rounded rounded-4 overflow-hidden bsb-hover-overlay">
-              <a href="./App1/index.html" target="_blank">
-                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/portfolio/img-app.jpeg" alt="img-app">
-              </a>
-              <figcaption>
-                <h3 class="text-white bsb-hover-fadeInLeft">어플리케이션</h3>
-                <div class="text-white bsb-hover-fadeInRight">Application</div>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-3 bsb-project-1-item">
-            <figure class="rounded rounded-4 overflow-hidden bsb-hover-overlay">
-              <a href="./Platform1/index.html" target="_blank">
-                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/portfolio/img-platform.jpeg" alt="">
-              </a>
-              <figcaption>
-                <h3 class="text-white bsb-hover-fadeInLeft">플랫폼 서비스</h3>
-                <div class="text-white bsb-hover-fadeInRight">Platform & Service</div>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-3 bsb-project-1-item">
-            <figure class="rounded rounded-4 overflow-hidden bsb-hover-overlay">
-              <a href="./Portfolio1/index.html" target="_blank">
-                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/portfolio/img-portfolio.jpeg" alt="">
-              </a>
-              <figcaption>
-                <h3 class="text-white bsb-hover-fadeInLeft">포트폴리오</h3>
-                <div class="text-white bsb-hover-fadeInRight">Portfolio</div>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-3 bsb-project-1-item">
-            <figure class="rounded rounded-4 overflow-hidden bsb-hover-overlay">
-              <a href="./Product1/index.html" target="_blank">
-                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/portfolio/img-product.jpeg" alt="">
-              </a>
-              <figcaption>
-                <h3 class="text-white bsb-hover-fadeInLeft">제품 & 굿즈</h3>
-                <div class="text-white bsb-hover-fadeInRight">Product & Merch</div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Service 1 - Bootstrap Brain Component -->
-    <section id="process-section" class="bg-light py-5 py-xl-8">
-      <div class="container mb-5 mb-md-6">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-            <h2 class="mb-4 display-5">진행 방식</h2>
-            <p class="text-secondary mb-4 mb-md-5">어떤걸 만들고 싶은지 알려주세요. 필요한 사진, 자료, 설명을 주시면 알맞게 만들어 드릴게요.</p>
-            <hr class="w-50 mx-auto mb-0 text-secondary">
-          </div>
-        </div>
-      </div>
-
-      <div class="container overflow-hidden">
-        <div class="row gy-5 gy-md-6 gx-xl-6">
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-1-circle-fill text-primary mb-4" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z" />
-              </svg>
-              <h5 class="m-2">프로젝트 미팅</h5>
-              <p class="m-0 text-secondary">간단한 원격 미팅을 통해 웹사이트 구성을 상의해요!</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-2-circle-fill text-primary mb-4" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z" />
-              </svg>
-              <h5 class="m-2">자료 전달</h5>
-              <p class="m-0 text-secondary">필요한 정보, 사진, 자료, 링크를 전달해주세요.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-3-circle-fill text-primary mb-4" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z" />
-              </svg>
-              <h5 class="m-2">개발 시작</h5>
-              <p class="m-0 text-secondary">열심히 웹사이트 개발을 진행하겠습니다.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-4-circle-fill text-primary mb-4" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM7.519 5.057c-.886 1.418-1.772 2.838-2.542 4.265v1.12H8.85V12h1.26v-1.559h1.007V9.334H10.11V4.002H8.176c-.218.352-.438.703-.657 1.055ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z" />
-              </svg>
-              <h5 class="m-2">중간 점검</h5>
-              <p class="m-0 text-secondary">필요한 수정사항이 있는지 검토해요.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-5-circle-fill text-primary mb-4" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.006 4.158c1.74 0 2.924-1.119 2.924-2.806 0-1.641-1.178-2.584-2.56-2.584-.897 0-1.442.421-1.612.68h-.064l.193-2.344h3.621V4.002H5.791L5.445 8.63h1.149c.193-.358.668-.809 1.435-.809.85 0 1.582.604 1.582 1.57 0 1.085-.779 1.682-1.57 1.682-.697 0-1.389-.31-1.53-1.031H5.276c.065 1.213 1.149 2.115 2.72 2.115Z" />
-              </svg>
-              <h5 class="m-2">완성 후 코드 전송</h5>
-              <p class="m-0 text-secondary">완성된 웹사이트 코드를 전송해드립니다.</p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-6-circle-fill text-primary mb-4" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.21 3.855c-1.868 0-3.116 1.395-3.116 4.407 0 1.183.228 2.039.597 2.642.569.926 1.477 1.254 2.409 1.254 1.629 0 2.847-1.013 2.847-2.783 0-1.676-1.254-2.555-2.508-2.555-1.125 0-1.752.61-1.98 1.155h-.082c-.012-1.946.727-3.036 1.805-3.036.802 0 1.213.457 1.312.815h1.29c-.06-.908-.962-1.899-2.573-1.899Zm-.099 4.008c-.92 0-1.564.65-1.564 1.576 0 1.032.703 1.635 1.558 1.635.868 0 1.553-.533 1.553-1.629 0-1.06-.744-1.582-1.547-1.582Z" />
-              </svg>
-              <h5 class="m-2">배포</h5>
-              <p class="m-0 text-secondary">원하시면 웹사이트를 배포해드립니다. <br> 도메인 구매는 제가 못해요!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Achievement 1 - Bootstrap Brain Component -->
-    <section id="price-section" class="py-5 py-xl-8">
-      <div class="container mb-5 mb-md-6">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-            <h2 class="mb-4 display-5">가격</h2>
-            <p class="text-secondary mb-4 mb-md-5">아주 저렴합니다. 불쌍한 대학생을 도와주세요!</p>
-            <hr class="w-50 mx-auto mb-0 text-secondary">
-          </div>
-        </div>
-      </div>
-
-      <div class="container overflow-hidden">
-        <div class="row gy-5 gy-md-6 gy-lg-0">
-          <div class="col-6 col-lg-3">
-            <div class="text-center">
-              <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle w-100px h-100px mb-3 mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-people text-white" viewBox="0 0 16 16">
-                  <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
-                </svg>
-              </div>
-              <h5 class="display-6 fw-bold m-1">8만원</h5>
-              <p class="text-secondary m-0">완성 코드까지 보내드려요!</p>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3">
-            <div class="text-center">
-              <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle w-100px h-100px mb-3 mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-activity text-white" viewBox="0 0 16 16">
-                  <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
-                  <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
-                </svg>                </svg>
-              </div>
-              <h5 class="display-6 fw-bold m-1">3~5일</h5>
-              <p class="text-secondary m-0">시간이 있으면 더 빨리 해드릴게요.</p>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3">
-            <div class="text-center">
-              <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle w-100px h-100px mb-3 mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-briefcase text-white" viewBox="0 0 16 16">
-                  <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z"/>
-                </svg>
-              </div>
-              <h5 class="display-6 fw-bold m-1">환불</h5>
-              <p class="text-secondary m-0">마음에 안들면 환불해드립니다 :(</p>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3">
-            <div class="text-center">
-              <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle w-100px h-100px mb-3 mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-award text-white" viewBox="0 0 16 16">
-                  <path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
-                </svg>
-              </div>
-              <h5 class="display-6 fw-bold m-1">할인</h5>
-              <p class="text-secondary m-0">지인 추천으로 오시면 1만원 할인!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-5 py-xl-8 border-top">
-      <div class="container mb-5 mb-md-6">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-            <h2 class="mb-4 display-5">진행사항</h2>
-            <p class="text-secondary mb-4 mb-md-5">현재 작업중인 프로젝트 및 완성한 프로젝트</p>
-            <hr class="w-50 mx-auto mb-0 text-secondary">
-          </div>
-        </div>
-      </div>
-      <div class="container overflow-hidden">
-        <div class="row gy-4 gy-xl-0">
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="bg-light shadow-sm rounded-2 p-5 text-center">
-              <h4 class="fw-bold mb-2">2</h4>
-              <div class="text-secondary">진행중</div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="bg-light shadow-sm rounded-2 p-5 text-center">
-              <h4 class="fw-bold mb-2">1</h4>
-              <div class="text-secondary">완료</div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="bg-light shadow-sm rounded-2 p-5 text-center">
-              <h4 class="fw-bold mb-2">1.5일</h4>
-              <div class="text-secondary">평균 소요 시간</div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="bg-light shadow-sm rounded-2 p-5 text-center">
-              <h4 class="fw-bold mb-2">카톡</h4>
-              <div class="text-secondary">연락이 가장 빨라요!</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<!-- ======= Clients Section ======= -->
-<section id="clients" class="clients">
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-        <a href="https://consolnara.netlify.app/" target="_blank"><img src="assets/img/clients/client-1.png" class="img-fluid" alt="" style="width: 100px; height:auto;"></a>
-      </div>
-
-      
-
-    </div>
-
-  </div>
-</section><!-- End Clients Section -->
-
-
-
-    <div class="py-5 py-xl-8">
-
-      <div id="contact-section" class="container mb-5 mb-md-6">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-            <h2 class="mb-4 display-5">연락주세요!</h2>
-            <p class="text-secondary mb-4 mb-md-5">미국 거주 중이라 시차가 있어요. 24시간 안에 답장드릴게요 :) <br> 이메일: seanahn100@gmail.com · 카카오톡: <a href="https://open.kakao.com/o/sht4PG6e" target="_blank"> https://open.kakao.com/o/sht4PG6e </a></p>
-            <hr class="w-50 mx-auto mb-0 text-secondary">
-          </div>
-        </div>
-      </div>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
       <div class="container">
-        <div class="row justify-content-lg-center">
-          <div class="col-12 col-lg-9">
-            <div class="bg-white border rounded shadow-sm overflow-hidden">
 
-              <form action="https://formspree.io/f/mwkjogrn" method="POST">
-                <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
-                  <div class="col-12">
-                    <label for="fullname" class="form-label">이름 <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" name="name" id="fullname" value="" required>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <label for="email" class="form-label">이메일 <span class="text-danger">*</span></label>
-                    <div class="input-group">
-                      <span class="input-group-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                        </svg>
-                      </span>
-                      <input type="email" class="form-control" name="email" id="email" value="" required>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <label for="phone" class="form-label">카톡 아이디</label>
-                    <div class="input-group">
-                      <span class="input-group-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                          <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                        </svg>
-                      </span>
-                      <input type="text" class="form-control" name="KakaoID" id="phone" value="">
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
-                    <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
-                  </div>
-                  <div class="col-12">
-                    <div class="d-grid">
-                      <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
+        <div class="section-title" data-aos="zoom-out">
+          <h2>About</h2>
+          <p>Who we are</p>
+        </div>
 
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              저희 애쉬 컴퍼니는 한국의 스타트업, 프리랜서, 제품 판매업 등 다양한 고객층을 다룹니다. 저희 서비스를 통해 이러한 결과를 기대하실 수 있습니다.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>고객들에게 제공 서비스 소개 및 홍보</li>
+              <li><i class="ri-check-double-line"></i>인력 확보 및 팀원 모집</li>
+              <li><i class="ri-check-double-line"></i>포트폴리오 소개 및 제품 홍보</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              의뢰자의 요구에 알맞은 형태의 웹사이트를 제작해드립니다. 미팅을 통해서 의뢰자의 니즈를 정확하게 파악한 후 작업을 진행합니다.
+              저희 애쉬 컴퍼니는 템플릿을 적극 활용해여 빠른 제작, 예쁜 디자인, 저렴한 가격을 보장해드립니다. 언제든 궁금하신 점이 있다면 연락해주세요.
+            </p>
+            <a href="#contact" class="btn-learn-more">연락하기</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="services" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Services</h2>
+          <p>What we do offer</p>
+        </div>
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3" data-aos="zoom-in">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+              <i class="ri-smartphone-line"></i>
+              <h4 class="d-none d-lg-block">어플리케이션</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="ri-swap-box-line"></i>
+              <h4 class="d-none d-lg-block">서비스 소개</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="ri-layout-3-line"></i>
+              <h4 class="d-none d-lg-block">프리랜서 포트폴리오</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="ri-shopping-bag-line"></i>
+              <h4 class="d-none d-lg-block">제품 홍보</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>어플리케이션 소개 웹사이트</h3>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> 어플리케이션 작동 데모 영상 및 스크린샷</li>
+                  <li><i class="ri-check-double-line"></i> 앱이 제공하는 기능 및 차별성 설명</li>
+                  <li><i class="ri-check-double-line"></i> 다운로드 링크 및 연락처</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/feature-1.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>스타트업 소개 웹사이트</h3>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> 제공하는 서비스 설명</li>
+                  <li><i class="ri-check-double-line"></i> 팀원 설명 및 팀 모집 홍보</li>
+                  <li><i class="ri-check-double-line"></i> 서비스 이용 후기</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/feature-2.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>프리랜서 포트폴리오 웹사이트</h3>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> 자기소개 및 본인 사진</li>
+                  <li><i class="ri-check-double-line"></i> 경력, 학력, 및 레주메</li>
+                  <li><i class="ri-check-double-line"></i> 작업물 및 포트폴리오</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/feature-3.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>제품 & 굿즈 홍보 웹사이트</h3>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> 제품 및 굿즈 사진 / 동영상</li>
+                  <li><i class="ri-check-double-line"></i> 제품 설명, 사용 후기, 차별성</li>
+                  <li><i class="ri-check-double-line"></i> 구매 링크 및 연락처</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/feature-4.png" alt="" class="img-fluid">
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-    </div>
+    </section><!-- End Features Section -->
 
-  </main>
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
 
-  <!-- Footer 1 -->
-  <footer class="footer">
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Open <span style="color: #ffc815;">Kakaotalk</span> <i class="bi bi-chat-dots-fill"></i></h3>
+            <p>이메일으로 연락하기 번거로우신가요? 이번에 개설한 오픈 카카오톡을 통해서 더욱 빠르고 간편하게 연락해보세요.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://open.kakao.com/o/sht4PG6e" target="_blank">카톡으로 연락하기</a>
+          </div>
+        </div>
 
-    <!-- Copyright - Bootstrap Brain Component -->
-    <div class="bg-light border-top py-3 py-md-4 py-xl-8">
-      <div class="container overflow-hidden">
-        <div class="row gy-5 gy-md-0">
-          <div class="col-xs-12 col-md-7 order-1 order-md-0">
-            <div class="copyright text-center text-md-start">
-              Created by ASH COMPANY, 2023.
-            </div>
-            <div class="credits text-secondary text-center text-md-start mt-2 fs-7">
-              <img src="./assets/img/header/concept-logo.png" class="bsb-tpl-logo" alt="LOGO" style="width: 150px; height: auto;">
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="process" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Process</h2>
+          <p>How we do it</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <div class="icon"><i class="bi bi-calendar-date" style="color: #71bae8;"></i></div>
+              <h4 class="title"><a href="">1. 프로젝트 미팅</a></h4>
+              <p class="description">간단한 원격 미팅을 통해 웹사이트 구성을 상의합니다. 의로 내용을 상세히 설명해주시면 감사하겠습니다.</p>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-book" style="color: #71bae8;"></i></div>
+              <h4 class="title"><a href="">2. 자료 전달</a></h4>
+              <p class="description">필요한 정보, 사진, 자료, 링크를 전달해주세요. 원하시는 기능에 따라 필요한 정보가 달라집니다.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-columns-gap" style="color: #71bae8;"></i></div>
+              <h4 class="title"><a href="">3. 개발 시작</a></h4>
+              <p class="description">열심히 웹사이트 개발을 진행하겠습니다. 작업 기간은 필요 기능에 따라 달라집니다.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-gear" style="color:#71bae8;"></i></div>
+              <h4 class="title"><a href="">4. 중간 점검</a></h4>
+              <p class="description">필요한 수정사항이 있는지 의뢰자와 검토합니다. 수정은 총 2번 이루어집니다.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+              <div class="icon"><i class="bi bi-file-earmark-text" style="color: #71bae8;"></i></div>
+              <h4 class="title"><a href="">5. 코드 전송</a></h4>
+              <p class="description">최종 개발 완료 후 요청시 코드를 전송해드립니다. 언제든 의뢰자분께서 코드 수정/변경이 가능합니다.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+              <div class="icon"><i class="bi bi-globe-americas" style="color: #71bae8;"></i></div>
+              <h4 class="title"><a href="">6. 배포</a></h4>
+              <p class="description">웹사이트를 배포 후 링크를 전송해드립니다. 배포 이후 수정사항은 추가 금액이 발생합니다.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Portfolio</h2>
+          <p>What we've done</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">App</li>
+          <li data-filter=".filter-service">Serv</li>
+          <li data-filter=".filter-portfolio">Port</li>
+          <li data-filter=".filter-goods">Prod</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-service">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio1.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>건설 나라</h4>
+              <p>2023.02.27</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"></a>
+              <a href="https://consolnara.netlify.app/" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+    
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Pricing</h2>
+          <p>Our Competing Prices</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>기본 금액</h3>
+              <h4><sup>￦</sup>80,000<span> / project</span></h4>
+              <ul>
+                <li>모든 프로젝트는 건당 8만원 입니다.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>이메일 기능</h3>
+              <h4><sup>￦</sup>20,000<span> / function</span></h4>
+              <ul>
+                <li>웹사이트를 통해 이메일을 보내는 기능입니다.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>배포 후 추가 수정</h3>
+              <h4><sup>￦</sup>10,000<span> / revision</span></h4>
+              <ul>
+                <li>웹사이트 배포 후 수정 금액입니다.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>지인 추천 할인</h3>
+              <h4><sup>￦</sup>-20,000<span> / revision</span></h4>
+              <ul>
+                <li>지인 소개로 오시면 할인해드립니다.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <section id="status" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Status</h2>
+          <p>Our Current status</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h4 style="color: #2a2c39;">2개</h4>
+              <ul>
+                <li>진행중인 프로젝트</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h4 style="color: #2a2c39;">1개</h4>
+              <ul>
+                <li>완료한 프로젝트</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h4 style="color: #2a2c39;">1.5일</h4>
+              <ul>
+                <li>평균 작업 시간</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h4 style="color: #2a2c39;">3개</h4>
+              <ul>
+                <li>대기중인 프로젝트</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>West Lafayette, IN, USA</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>seanahn100@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 248 962 6813</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+            <form action="https://formspree.io/f/mwkjogrn" method="post" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="이름" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="이메일" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="제목" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="메세지" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">보내기</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>ASH COMPANY</span></strong>. All Rights Reserved
       </div>
     </div>
+  </footer><!-- End Footer -->
 
-  </footer>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Javascript Files: Vendors -->
-  <script src="./assets/vendor/jquery/jquery-3.6.0.min.js"></script>
-  <script src="./assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="./assets/vendor/isotope/isotope.pkgd.min.js"></script>
-  <script src="./assets/vendor/isotope/packery-mode.pkgd.min.js"></script>
-  <script src="./assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Javascript Files: Controllers -->
-  <script src="./assets/controller/project-1.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
