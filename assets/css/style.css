@@ -8,9 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+
 body {
-  font-family: "Open Sans", sans-serif;
   color: #444444;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 a {
@@ -341,6 +344,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   overflow: hidden;
@@ -359,6 +363,7 @@ h6 {
   position: relative;
   height: 70vh;
   padding-top: 60px;
+  
 }
 
 #hero h2 {
