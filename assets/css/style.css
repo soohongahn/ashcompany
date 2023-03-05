@@ -674,6 +674,34 @@ section {
   border-color: #71bae8;
 }
 
+
+.features .cta-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #444444;
+}
+
+.features .cta-btn:hover {
+  background: #47aceb;
+}
+
+@media (min-width: 769px) {
+  .features .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
 @media (max-width: 768px) {
   .features .nav-link i {
     padding: 0;
